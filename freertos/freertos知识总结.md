@@ -24,6 +24,139 @@
 * 一般强制限定最大可用优先级数目为32
 
 > configUSE_TICKLESS_IDLE
+1. 为1时使能低功耗tickless模式，为0时系统节拍tick中断一直运行
+2. 
+
+
+> configUSE_TICK_HOOK
+1. 
+2. 
+
+> configCPU_CLOCK_HZ
+1. 
+2. 
+
+> configTICK_RATE_HZ
+1. 
+2. 
+
+> configMAX_PRIORITIES
+1. 
+2. 
+
+> configMINIMAL_STACK_SIZE
+1. 
+2. 
+
+> configTOTAL_HEAP_SIZE
+1. 
+2. 
+
+> configMAX_TASK_NAME_LEN
+1. 
+2. 
+
+> configUSE_TRACE_FACILITY
+1. 
+2. 
+
+> configUSE_STATS_FORMATTING_FUNCTIONS 
+1. 
+2. 
+
+> configUSE_16_BIT_TICKS
+1. 
+2. 
+
+> configIDLE_SHOULD_YIELD
+1. 
+2. 
+
+> configUSE_TASK_NOTIFICATIONS
+1. 
+2. 
+
+> configUSE_MUTEXES
+1. 
+2. 
+
+> configUSE_RECURSIVE_MUTEXES
+1. 
+2. 
+
+> configUSE_COUNTING_SEMAPHORES
+1. 
+2. 
+
+> configUSE_ALTERNATIVE_API
+1. 
+2. 
+
+> configCHECK_FOR_STACK_OVERFLOW
+1. 
+2. 
+
+> configQUEUE_REGISTRY_SIZE
+1. 
+2. 
+
+> configUSE_QUEUE_SETS
+1. 
+2. 
+
+> configUSE_TIME_SLICING
+1. 
+2. 
+
+> configUSE_NEWLIB_REENTRANT
+1. 
+2. 
+
+> configENABLE_BACKWARD_COMPATIBILITY
+1. 
+2. 
+
+> configNUM_THREAD_LOCAL_STORAGE_POINTERS
+1. 
+2. 
+
+> configGENERATE_RUN_TIME_STATS
+1. 
+2. 
+
+> configUSE_CO_ROUTINES
+1. 
+2. 
+
+> configMAX_CO_ROUTINE_PRIORITIES
+1. 
+2. 
+
+> configUSE_TIMERS
+1. 
+2. 
+
+> configTIMER_TASK_PRIORITY
+1. 
+2. 
+
+> configTIMER_QUEUE_LENGTH
+1. 
+2. 
+
+> configTIMER_TASK_STACK_DEPTH
+1. 
+2. 
+
+> configKERNEL_INTERRUPT_PRIORITY、configMAX_SYSCALL_INTERRUPT_PRIORITY和configMAX_API_CALL_INTERRUPT_PRIORITY
+1. 
+2. 
+
+> configASSERT
+1. 
+2. 
+
+> INCLUDE Parameters
 1. 
 2. 
 
